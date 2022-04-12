@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>S-Web</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="web_design.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3e76749200.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="icons8-s-50.png">
+</head>
+<div class="todo">
+<body  class="total-back">
+    <section class="sub-header cont-header">
+        <nav>
+            <a href="index_web.html"><p class="title">SANTIAGO</p></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i> <!--Logo para cerrar el menu en movil--> 
+                <ul>
+                    <li><a href="index_web.html">INICIO</a></li>
+                    <li><a href="biografia.html">BIOGRAFIA</a></li>
+                    <li><a href="">PORTFOLIO</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i><!--Logo para abrir el menu en movil--> 
+        </nav>
+    </section>
+    
+    <div class="container">
+        <form>
+            <h3>Mantente en Contacto</h3>
+            <input type="text" id="input" placeholder="Tu Nombre" required>
+            <input type="email" id="input" placeholder="Dirección de Correo" required>
+            <input type="text" id="input" placeholder="Número telefónico" required>
+            <textarea id="message" rows="4" placeholder="¿En que puedo ayudarte?"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</div>
+
+    <section class="footer">
+        <h4>Más Información</h4>
+        <p>Puedes encontrarme en todas las redes sociales<br> y ver mis proyectos subidos a GitHub.<br> No dudes en contactarme.</p>
+        <div class="icons">
+            <a href="https://www.instagram.com/santiguevaralt/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://twitter.com/Santi70763214" target="_blank"><i class="fa fa-twitter" ></i></a>
+            <a href="https://www.linkedin.com/in/santiago-guevara-leis-bb1783181/" target="_blank"><i class="fa fa-linkedin" ></i></a>
+            <a href="https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Fprivacy%2Fconsent%2Fuser_cookie_choice%2F%3Fsource%3Dpft_user_cookie_choice" target="_blank"><i class="fa fa-facebook" ></i></a>
+            <a href="https://github.com/Santiremix" target="_blank"><i class="fa fa-github" ></i></a>
+        </div>
+        <p>Made by Santiremix®</p>
+    </section>
+
+        <!-- JavaScript Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

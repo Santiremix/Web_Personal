@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>S-Web</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="web_design.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3e76749200.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="icons8-s-50.png"> <!--copiar en el resto de htmls -->
+
+</head> 
+<body>
+    <!---------------------- INICIO ---------------------->
+    <section class="header">
+        <nav>
+            <a href="index_web.html"><p class="title">SANTIAGO</p></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i> <!--Logo para cerrar el menu en movil--> 
+                <ul>
+                    <li><a href="index_web.html">INICIO</a></li>
+                    <li><a href="biografia.html">BIOGRAFIA</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i><!--Logo para abrir el menu en movil--> 
+        </nav><hr>
+    <div class="text-box">
+        <h1>Bienvenido a mi Web</h1>
+        <p>Programador apasionado, siempre en constante aprendizaje.<br>Actualmente formandome como desarrollador Full-Stack, concretamente en el MERN stack.</p>
+        <a href="contacto.html" class="hero-buton">Contáctame para más información</a>
+    </div>
+    </section>
+
+        <!------------------- Biografía ----------------->
+    <section class="bio">
+        <h1>Sobre Mi</h1>
+        <p>Siempre he estado conectado al mundo de la tecnología, y es por esto que decidí hacer de ello mi proyecto laboral. Mi plan a corto plazo es dedicarme al desarrollo web y continuar expandiendo mis conocimientos a los campos de la Ciencia de Datos, la Criptografía y/o la Inteligencia Artificial.</p>
+
+        <div class="works">
+            <div class="bio-col">
+                <h3>Actualmente</h3>
+                <p>Hoy en día cuento con un nivel básico/medio en el desarrollo front-end y back-end. Hago uso principalmente de los lenguajes HTML, CSS y JavaScript. A parte de esto he tocado por encima lenguajes como el ensamblador u otros más conocidos como Python.</p>
+            </div>
+            <div class="bio-col">
+                <h3>A corto plazo</h3>
+                <p>En los siguientes meses estaré formandome de manera intensiva como desarrollador Full-Stack. Mi objetivo es aumentar mi nivel en los lenguajes que ya conozco y aprender nuevas herramientas como Node.JS, Reacts, etc.</p>
+            </div>
+
+        </div>
+
+    </section>
+<!------------------------- Portfolio ------------------------>
+    <section class="portfolio">
+        <h1>Portfolio Personal</h1>
+        <p>En los siguientes documentos se pueden visualizar mis trabajos más recientes, esta sección estará en constante actualización. Para más información y acceso a los códigos visita el apartado de Portfolio en el menú.</p>
+
+        <div class="works">
+            <div class="portfolio-col">
+                <img src="assets/google.jpg">
+                <div class="layer">
+                    <a href="Google-port/google.html" target="_blank">Google Nav</a>
+                </div>
+            </div>
+            <div class="portfolio-col">
+                <img src="assets/circles.jpg">
+                <div class="layer">
+                    <a href="Trans-port/transitions.html" target="_blank">Transiciones</a>
+                </div>
+            </div>
+            <div class="portfolio-col">
+                <img src="assets/form.jpg">
+                <div class="layer">
+                    <a href="Form-port/TerceraEdad.html" target="_blank">Formulario</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!---------------------- Futuros Proyectos? ----------------->
+<!--Añadir un formulario-->
+    <!-- <section class="fut-pro">
+        <h1>Lorem HGH</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quod. Non dicta nobis vitae, dolorem ad obcaecati ducimus commodi ut modi dolore inventore quos aliquid quis sint et qui officia!</p>
+    
+
+    <div class="works">
+        <div class="fut-pro-col">
+        <img src="assets/foto-port.jpg">
+        <h3>Lorem Lorem</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem suscipit repudiandae ipsum.</p>
+        </div>
+
+        <div class="fut-pro-col">
+        <img src="assets/foto-port.jpg">
+        <h3>Lorem Lorem</h3>
+        <p>Lorem ipsum dolor sit amet, consecteturadipisicing elit. Rem suscipit repudiandae ipsum.<p>
+        </div>
+
+        <div class="fut-pro-col">
+        <img src="assets/foto-port.jpg">
+        <h3>Lorem Lorem</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuadipisicing elit. Rem suscipit repudiandaipsum.</p>
+        </div>
+    </div>
+    </section> -->
+
+    <!---------------------- Lenguajes ----------------->
+
+    <section class="lenguajes">
+        <h1>Lenguajes de Programación</h1>
+        <p>Actualmente me encuentro profundizando y mejorando en el uso de estos distintos lenguajes,<br> con el objetivo de llegar a controlarlos a un alto nivel.</p>
+
+        <div class="works">
+            <div class="lenguajes-col">
+                <img src="assets/html.png" class="html-pic">
+                <div>
+                    <p>Lo utilizo para maquetar los proyectos y, en caso de que sea necesario, cuidar el SEO.</p>
+                    <h3>HTML</h3>
+                </div>
+            </div>
+
+            <div class="lenguajes-col">
+                <img src="assets/css.webp">
+                <div>
+                    <p>Me sirvo de este lenguaje para mejorar el diseño y cuidar la presentación de mis trabajos.</p>
+                    <h3>CSS</h3>
+                </div>
+            </div>
+
+            <div class="lenguajes-col">
+                <img src="assets/js.png">
+                <div>
+                    <p>En el sector del desarrollo, me permite llevar el dinamismo de la web al siguiente nivel.</p>
+                    <h3>JavaScript</h3>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--------------------- Mini Contacto ----------------->
+
+    <section class="mct">
+        <h1>No dudes en ponerte en contacto conmigo!</h1>
+        <a href="contacto.html" class="hero-buton">ENVIAR CORREO</a>
+    </section>
+
+    <!---------------------- Footer ----------------->
+
+    <section class="footer">
+        <h4>Más Información</h4>
+        <p>Puedes encontrarme en todas las redes sociales<br> y ver mis proyectos subidos a GitHub.<br> No dudes en contactarme.</p>
+        <div class="icons">
+            <a href="https://www.instagram.com/santiguevaralt/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://twitter.com/Santi70763214" target="_blank"><i class="fa fa-twitter" ></i></a>
+            <a href="https://www.linkedin.com/in/santiago-guevara-leis-bb1783181/" target="_blank"><i class="fa fa-linkedin" ></i></a>
+            <a href="https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Fprivacy%2Fconsent%2Fuser_cookie_choice%2F%3Fsource%3Dpft_user_cookie_choice" target="_blank"><i class="fa fa-facebook" ></i></a>
+            <a href="https://github.com/Santiremix" target="_blank"><i class="fa fa-github" ></i></a>
+        </div>
+        <p>Made by Santiremix®</p>
+    </section>
+
+    <!-- JavaScript Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
