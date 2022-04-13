@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="design3.css">
+        <title>Tercera Edad</title>
+    </head>
+
+    <body>
+      <!-- Primer apartado: nombre, apellidos y edad   -->
+      <h1 align="center" >Club de la tercera edad</h1>  
+      <form action="/action_page.php">
+          <label>Nombre:</label>
+          <input style="font-style: italic" type="text" placeholder= "Juan" autofocus tabindex="1"><br><br>
+          <label>Apellidos:</label>
+          <input style="font-style: italic" type="text" placeholder="Moreno Salazar" tabindex="2"><br><br>
+          <label>Edad:</label>
+          <input style="font-style: italic" type="number" min="1" max="100" placeholder="75" tabindex="3">
+          <input type="submit" value="Confirmar"><br><br><hr>
+      </form>
+      <!-- Indique el sexo  -->
+      <p><b>Indique su sexo:</b></p>
+      <form action="/action_page.php">
+          <input type="radio" id="masculino" name="sexo" value="masculino">
+          <label for="masculino">Masculino</label><br>
+          <input type="radio" id="femenino" name="sexo" value="femenino">
+          <label for="femenino">Femenino</label><br>
+          <input type="radio" id="otro" name="sexo" value="otro">
+          <label for="otro">Otro</label><br><br>
+          <input type="submit" value="Aceptar">
+      </form> <hr>
+      <!-- Pregunta estado de ánimo -->
+      <label><b>¿Frecuentemente se siente mayor y sin fuerzas?</b></label><br> 
+          <input type="checkbox" id="opcion1" name="opcion1" value="Si">
+          <label for="opcion1"> Si</label><br>
+          <input type="checkbox" id="opcion2" name="opcion2" value="No">
+          <label for="opcion2"> No</label><br>
+          <input type="checkbox" id="opcion3" name="opcion3" value="A veces">
+          <label for="opcion3"> A veces</label><br><br>
+          <input type="submit" value="Aceptar"><br><br><hr>
+      <!-- Escribe algo sobre ti -->
+      <label><b>Escribe algo sobre ti:</b></label><br><br>
+          <textarea style="font-style: italic" name="comentarios" rows="10" cols="40" placeholder="Cuentanos..." tabindex="4"></textarea><br><br>
+      </form>
+      <!-- Tus circusntancias -->
+      <form action="/action_page.php">
+        <fieldset>
+          <legend><b>Tus circusntancias:</b></legend>
+
+          <label for="email">Indica tu dirección de correo electrónico:</label>
+          <input style="font-style: italic" type="email" id="email" name="email" placeholder="diego18@gmail.com" tabindex="5">
+          <input type="submit" value="Aceptar"><br><br>
+      
+          <label for="phone">Indica tu número telefónico:</label>
+          <input style="font-style: italic" type="tel" id="phone" name="phone" placeholder="671-254-714" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" tabindex="6">
+          <input type="submit" value="Aceptar"><br><br>
+        </fieldset>
+      </form>
+    
+    </body>
+</html>
